@@ -1,0 +1,39 @@
+# Vue / Node
+node_modules/
+vue/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+vue/dist/
+vue/.cache/
+*.local
+.DS_Store
+
+# Spring Boot / Java
+springboot/target/
+springboot/*.iml
+springboot/.idea/
+springboot/.settings/
+springboot/.classpath
+springboot/.project
+springboot/bin/
+*.class
+*.jar
+*.war
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Env / secrets (do not commit)
+.env
+.env.local
+*.pem
+
+# OS
+Thumbs.db
+.DS_Store
